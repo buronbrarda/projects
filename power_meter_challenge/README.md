@@ -43,7 +43,7 @@ API-EndPoints:
   - POST : Create a new measure. Parameters: ["meter","timestamp","consumption"] 
    	- "meter" is the meter's code that produce this measure.
    	- "timestamp" is the timestamp associated with the new measure in format 'YYYY-MM-DD HH:MM:SS'.
-   	- "consumption" is the amount of kWH that were consumend during the measuring interval. It must be >= 0.
+   	- "consumption" is the amount of kWs that were consumend during the measuring interval. It must be >= 0.
 
 - /api/measures/:id/
   - GET : Returns the details about the measure identified with id.
