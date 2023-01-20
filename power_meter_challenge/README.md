@@ -33,8 +33,8 @@ API-EndPoints:
   - DELETE : Removes the meter identified as code from the data-base, together with all its measures.
 
 - /api/meters/:code/[min,max,total,avg] (GET)
-	- min : Returns the measure with the minimum consumptions from the meter idetified as code.
-	- max : Returns the measure with the maximum consumptions from the meter idetified as code.
+	- min : Returns the measure with the minimum consumption from the meter idetified as code.
+	- max : Returns the measure with the maximum consumption from the meter idetified as code.
 	- total : Returns the sum of the consumptions of all the measures from the meter idetified as code.
 	- avg : Returns the average consumption asociated with the meter identified as code.
 
