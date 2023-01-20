@@ -1,11 +1,13 @@
 This is a web API developed with the REST Django Framework.
 
-To run the server you will need to have Python 3 intalled in your PC.
+To run the server you will need to have Python 3 installed in your PC.
 
 Follow these actions to start the server:
 
 1) Configure the environment. Open the command line interface, go to the code folder and write:
-    - pip install -r requirements.txt
+	- python -m venv venv
+	- source ./venv/scripts/activate
+	- pip install -r requirements.txt
 2) Initialize django:
     - python manage.py makemigrations
     - python manage.py migrate
