@@ -14,7 +14,7 @@ Follow these actions to start the server:
 
 Now, you can access from your web browser to the api through localhost:8000/api/
 
-The application manage a set of meters upload consumptiom measures to the server.
+The application manage a set of meters which periodically upload consumptiom measures to the server.
 
 API-EndPoints:
 
